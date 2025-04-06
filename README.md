@@ -43,7 +43,6 @@ This directory contains the GNN implementation for node classification:
 - **subset_strategy.py**: Implementation of dataset subset creation
 - **train_utils.py**: Utilities for training
 - **train.py**: Main training script
-- **train_with_optuna.py**: Hyperparameter optimization with Optuna
 - **finetune.py**-Bonus Task Code(Not Implemented - Only code)
 - **results/**: Directory containing training results and model performance
 
