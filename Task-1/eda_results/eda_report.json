@@ -1,0 +1,102 @@
+{
+  "task_1a_entity_types": {
+    "('http://www.opengis.net/ont/geosparql#Geometry', 'iri')": 65576,
+    "('http://www.geonames.org/ontology#P', 'iri')": 2407,
+    "('http://www.geonames.org/ontology#Feature', 'iri')": 2407,
+    "('http://www.opengis.net/ont/geosparql#Feature', 'iri')": 388,
+    "('https://data.pldn.nl/cbs/wijken-buurten/def/cbs#Gemeente_Geografisch', 'iri')": 387,
+    "('https://data.labs.pdok.nl/rce/def/Afbeelding', 'iri')": 60996,
+    "('http://www.opengis.net/ont/gml#MultiSurface', 'iri')": 371,
+    "('https://data.pldn.nl/cbs/wijken-buurten/def/cbs#Land_Geografisch', 'iri')": 1
+  },
+  "task_1b_edge_types": {
+    "total_edge_types": 60,
+    "top_20_predicates": {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 130126,
+      "http://purl.org/dc/terms/description": 57042,
+      "http://xmlns.com/foaf/0.1/depiction": 47872,
+      "http://xmlns.com/foaf/0.1/depicts": 47872,
+      "http://purl.org/dc/terms/isPartOf": 47384,
+      "https://data.labs.pdok.nl/rce/def/locator": 46123,
+      "http://dbpedia.org/ontology/thumbnail": 46108,
+      "http://purl.org/dc/terms/creator": 45111,
+      "http://purl.org/dc/terms/created": 44216,
+      "https://data.labs.pdok.nl/rce/def/fotograaf": 43964,
+      "https://data.labs.pdok.nl/rce/def/techniek": 34865,
+      "http://www.opengis.net/ont/geosparql#hasGeometry": 21039,
+      "http://www.opengis.net/ont/geosparql#asWKT": 20866,
+      "https://data.labs.pdok.nl/rce/def/rnaSubject": 18260,
+      "http://www.opengis.net/ont/geosparql#sfWithin": 8783,
+      "http://dbpedia.org/ontology/city": 8396,
+      "https://data.labs.pdok.nl/rce/def/huisnummerCompleet": 8396,
+      "https://data.labs.pdok.nl/rce/def/huisnummer": 8396,
+      "http://www.w3.org/2006/vcard/ns#street-address": 8396,
+      "http://www.w3.org/2006/vcard/ns#postal-code": 8396
+    }
+  },
+  "task_1c_modalities": {
+    "modality_counts": {
+      "Numerical": 8893,
+      "Temporal": 290,
+      "Textual": 265189,
+      "Visual": 46061,
+      "Spatial": 20837
+    },
+    "datatypes": {
+      "iri": 148127,
+      "none": 27886,
+      "@es": 1,
+      "@fy": 11,
+      "@nl": 397,
+      "@nl-nl": 33721,
+      "@pt": 1,
+      "@ru": 14,
+      "http://kgbench.info/dt#base64Image": 46061,
+      "http://www.opengis.net/ont/geosparql#wktLiteral": 20837,
+      "http://www.w3.org/2001/XMLSchema#anyURI": 55031,
+      "http://www.w3.org/2001/XMLSchema#boolean": 2,
+      "http://www.w3.org/2001/XMLSchema#gYear": 290,
+      "http://www.w3.org/2001/XMLSchema#nonNegativeInteger": 8396,
+      "http://www.w3.org/2001/XMLSchema#positiveInteger": 495
+    }
+  },
+  "task_1d_triple_patterns": {
+    "total_triples": 777124,
+    "unique_subjects": 137763,
+    "unique_objects": 282549,
+    "avg_triples_per_entity": 5.641021174045281,
+    "unique_sp_patterns": 718784
+  },
+  "task_1e_entity_mappings": {
+    "id_length_stats": {
+      "min": 12,
+      "max": 3455923,
+      "mean": 1875.2154774811734,
+      "unique_lengths": 7720
+    },
+    "mapping_errors": 0
+  },
+  "task_1f_gnn_preparation": {
+    "num_components": 1,
+    "largest_component_size": 341270,
+    "largest_component_percentage": 100.0,
+    "class_distribution": {
+      "1": 2578,
+      "4": 728,
+      "3": 1496,
+      "2": 387,
+      "0": 205
+    },
+    "homophily": null,
+    "avg_degree": 4.2261083599496
+  },
+  "dataset_summary": {
+    "name": "dmg777k",
+    "num_entities": 341270,
+    "num_relations": 60,
+    "num_triples": 777124,
+    "num_classes": 5,
+    "training_instances": 5394,
+    "validation_instances": 1001
+  }
+}
