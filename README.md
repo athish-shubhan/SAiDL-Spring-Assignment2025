@@ -43,7 +43,7 @@ This directory contains the GNN implementation for node classification:
 - **subset_strategy.py**: Implementation of dataset subset creation
 - **train_utils.py**: Utilities for training
 - **train.py**: Main training script
-- **finetune.py**-Bonus Task Code(Not Implemented - Only code)
+- **finetune.py**-Bonus Task Code
 - **results/**: Directory containing training results and model performance
 
 ### 4. 📝 LaTeX Report
@@ -100,18 +100,10 @@ python eda_final.py
 ```bash
 cd "Task 2"
 python run_focused.py
+python finetune.py
 ```
 
 ## 📈 Results
 Detailed results and analysis can be found in the LaTeX report and in the respective results directories. The implementation demonstrates the effectiveness of normalized losses and the APL framework in handling noisy labels, as well as the capabilities of multi-modal GNNs in processing heterogeneous graph data with visual and textual information.
 
-## 📝 LaTeX Report Structure
-The LaTeX report follows this structure:
-- **Introduction**: Overview of the tasks and objectives
-- **Core ML Task**: Methodology, implementation details, experiments, and results
-- **Multi-Modality Task**: 
-  - EDA analysis and findings
-  - GNN architecture and implementation
-  - Experimental setup and results
-- **Conclusion**: Summary of findings and potential future improvements
-- **References**: Citations for all resources used
+
