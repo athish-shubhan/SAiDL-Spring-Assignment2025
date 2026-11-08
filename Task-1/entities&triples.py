@@ -57,4 +57,4 @@ def convert_kgbench_to_explorer_format(dataset_name, output_dir):
     return output_dir
 
 if __name__ == "__main__":
-    convert_kgbench_to_explorer_format('dmg777k', 'dmg77k_dataset')
+    convert_kgbench_to_explorer_format('dmg777k', 'dmg777k_dataset')
